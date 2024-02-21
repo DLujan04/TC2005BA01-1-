@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid black;
+        padding: 10px;
+        width: 80%;
+      }
+      .logo, .search {
+        border: 1px solid black;
+        padding: 10px;
+      }
+      .menu {
+        flex-grow: 1;
+        text-align: center;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        padding: 10px;
+      }
+      .main {
+        padding: 20px;
+        text-align: center;
+        width: 80%;
+      }
+      .main h1 {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        height: 30px; 
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .image-large {
+        background-color: gray;
+        margin: 20px;
+        width: 90%; /* Ajusta el ancho aquí */
+        height: 220px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .image-small {
+        background-color: gray;
+        margin: 20px;
+        width: 40%; /* Ajusta el ancho aquí */
+        height: 80px; /* Ajusta la altura aquí */
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .image-container {
+        display: flex;
+        justify-content: space-between;
+      }
+      .image-large::before, .image-small::before {
+        content: "X";
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+      .text-bar {
+        border-top: 1px solid black;
+        padding: 10px;
+        width: 40%; /* Ajusta el ancho aquí */
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+    <title>Wireframe Blog</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img src="images/blog logo.png" alt="Logo">
+      </div>
+      <div class="menu">
+        <a href="pages/menu1.html">Menu</a> | <a href="pages/menu2.html">Menu</a>
+      </div>
+      <div class="search">
+        <input type="search" id="site-search" name="q"
+          aria-label="Search through site content">
+        <button>Search</button>
+      </div>
+    </div>
+    <div class="main">
+      <h1>Blog</h1>
+      <div class="image-large"></div>
+      <div class="image-container">
+        <div class="image-small"></div>
+        <div class="image-small"></div>
+      </div>
+      <div class="text-bar"></div>
+      <div class="text-bar"></div>
+      <div class="text-bar"></div>
+    </div>
+    <a href="index.html"> Mostrar Landing Page </a>
+  </body>
+</html>
