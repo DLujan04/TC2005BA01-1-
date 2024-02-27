@@ -1,0 +1,175 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  width: 100%;
+}
+
+.logo .logo-bg {
+  background-color: #b4b4b4;
+  display: inline-block;
+  width: 100px; 
+  height: 60px;
+}
+
+.logo .logo-bg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.search {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif; 
+}
+
+.search input[type="search"] {
+  height: 40px;
+  box-sizing: border-box;
+  margin-right: -10px;
+}
+
+.search button {
+  background-color: #b4b4b4;
+  border-radius: 0;
+  padding: 10px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.header img {
+    width: 100px;
+    height: 60px;
+}
+
+.menu {
+  flex-grow: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif; 
+  margin-left: auto; 
+  margin-left: 120px;
+}
+
+.menu .menu1 {
+  margin-right: 50px; 
+}
+
+.menu .menu2 {
+  margin-left: 50px; 
+}
+
+.menu a {
+  position: relative;
+  margin-right: 50px;
+}
+
+.menu a::after {
+  content: "";
+  position: absolute;
+  bottom: -10px; 
+  left: -50%;
+  width: 200%;
+  height: 1px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  padding: 20px;
+  text-align: center;
+  width: 80%;
+}
+
+.main h1 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  height: 35px; 
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Inter', sans-serif; 
+}
+
+.image-large {
+  border: 1px solid black;
+  background-color: #b4b4b4;
+  margin: 40px 20px 20px 20px;
+  width: 90%; 
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background-image: url('../images/Carro.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+
+.image-small {
+  border: 1px solid black;
+  background-color: #b4b4b4;
+  margin: 20px 20px 0 20px;
+  width: 200px; 
+  height: 100px; 
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.image-small1 {
+  background-image: url('../images/TiendaCarros2.jpg');
+  background-position: center;
+}
+
+.image-small2 {
+  background-image: url('../images/TiendaCarros3.jpg');
+  background-position: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.image-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.border-box {
+  border: 1px solid black;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 0px; 
+}
+
+.grey-rectangle {
+  background-color: #b4b4b4;
+  margin: 5px;
+  width: 180px; 
+  height: 20px; 
+}
