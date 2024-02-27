@@ -1,0 +1,134 @@
+body {
+    border: 1px solid black;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+.header {
+    background-color: #b4b4b4;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+}
+.acerca-de { 
+    font-family: "Inter", monospace;
+    font-size: 18px; 
+    margin-top: 60px;   
+}
+.register {
+    font-family: 'Inter', monospace;
+    font-size: 18px;
+    margin-top: 100px;
+}
+.header img {
+    width: 200px;
+    height: 75px;
+}
+.header div {
+    color: black;
+}
+.header .register {
+    background-color: white;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.image-placeholder {
+    width: 40%;
+    height: 200px;
+    margin: 100px 0;
+    margin-right: 40px;
+    text-align: center;
+    line-height: 200px;
+    background-color: #b4b4b4;
+    float: left;
+    position: relative;
+    background-image: url('images/como-emprender-un-negocio-de-ropa-4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.image-placeholder::after {
+    content: "";
+}
+.image-placeholder .bar {
+    display: none;
+}
+.info {
+    margin: 100px 0;
+    float: right;
+    width: 45%;
+}
+.info .register-btn {
+    background-color: #b4b4b4;
+    padding: 10px;
+    margin-left: 110px;
+    display: inline-block;
+}
+.circles {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+    clear: both;
+}
+.circle {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+    margin: 0 20px; 
+}
+.circle1 {
+    background-image: url('images/TiendaRopa1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.circle2 {
+    background-image: url('images/TiendaRopa2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.circle3 {
+    background-image: url('images/TiendaRopa3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.circle::after {
+    content: "";
+}
+.circle .bar {
+    display: none;
+}
+.text {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin: 0 20px; 
+}
+.nuestros-servicios {
+    font-family: "Inter", monospace;
+    font-size: 20px;
+}
+.nuestras-ofertas {
+    font-family: "Inter", monospace;
+    font-size: 20px;
+}
+.mas-informacion {
+    font-family: "Inter", monospace;
+    font-size: 20px;
+}
+.quienes-somos {
+    font-family: "Inter", monospace;
+    font-size: 28px;
+    margin-left: 50px;
+}
+a {
+    display: block;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 20px;
+}
