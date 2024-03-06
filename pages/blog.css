@@ -1,13 +1,15 @@
 body {
   font-family: Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   align-items: center;
+  min-height: 100vh;
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
   align-items: center;
   border-bottom: 1px solid black;
   padding: 10px;
@@ -173,3 +175,9 @@ body {
   width: 180px; 
   height: 20px; 
 }
+
+@media screen and (max-width: 600px) {
+  .header {
+    grid-template-columns: 1fr;
+  }
+
