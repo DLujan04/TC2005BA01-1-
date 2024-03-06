@@ -2,6 +2,7 @@ body {
     border: 1px solid black;
     padding: 10px;
     font-family: Arial, sans-serif;
+    min-height: 100vh;
 }
 .header {
     background-color: #b4b4b4;
